@@ -1,0 +1,29 @@
+img{
+  border-radius: 50%;
+  max-height: 40vh;
+
+}
+#headBackground{
+  background: url(../../assets/1350.svg) no-repeat center center fixed;
+  background-size: cover;
+}
+.text{
+  color: #A36D35;
+  text-shadow: .5px .5px .5px grey;
+}
+.center-block {
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+}
+.row{
+  background:rgba(244, 202, 158,0.2);
+  min-width: 100%
+}
+#body{
+  min-height: 60vh;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  vertical-align: middle;
+}

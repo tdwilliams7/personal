@@ -1,0 +1,18 @@
+nav {
+  background-color: #648c98;
+}
+nav div {
+  justify-content: flex-end;
+}
+nav a {
+  color: white
+}
+nav a:hover {
+  color: #AE5800
+}
+nav div ul li a {
+  color: white;
+}
+nav div ul li a:hover {
+  color: #AE5800;
+}
