@@ -318,7 +318,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/home/home.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\" id='headBackground'>\n  <div class=\"row\" id='body'>\n    <div class=\"col-md-6 center-block\">\n      <img class='img-fluid' src=\"../assets/profilepic.jpg\" alt=\"Profile Pic\" id=\"profilePic\">\n    </div>\n    <div class=\"col-md-6 text\">\n      <h2>Hey, I'm Troy.</h2>\n      <h3>Moderately Cool Dude.</h3>\n      <h3>Making Some Cool Stuff*.</h3>\n      <h3>Really Enjoy Angular.</h3>\n      <h4>Current Student at Lambda School.</h4>\n      <p>*stuff not guaranteed to be cool</p>\n    </div>\n  </div>\n</div>\n<app-links></app-links>\n<app-bloglinks></app-bloglinks>\n"
+module.exports = "<div class=\"row\" id='headBackground'>\n  <div class=\"row\" id='body'>\n    <div class=\"col-md-6 center-block\">\n      <img class='img-fluid' src=\"../assets/profilepic.jpg\" alt=\"Profile Pic\" id=\"profilePic\">\n    </div>\n    <div class=\"col-md-6 text\">\n      <h2>Hey, I am Troy.</h2>\n      <h3>Moderately Cool Dude.</h3>\n      <h3>Making Some Cool Stuff*.</h3>\n      <h3>Really Enjoy Angular.</h3>\n      <h4>Current Student at Lambda School.</h4>\n      <p>*stuff not guaranteed to be cool</p>\n    </div>\n  </div>\n</div>\n<app-links></app-links>\n<app-bloglinks></app-bloglinks>\n"
 
 /***/ }),
 
