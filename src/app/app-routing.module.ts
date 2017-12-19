@@ -8,7 +8,7 @@ import { PersonalComponent } from './personal/personal.component';
 const routes: Routes = [
   {path: '', component: HomeComponent, pathMatch: 'full'},
   {path: 'projects', component: ProjectsComponent, pathMatch: 'full'},
-  {path: 'posts', component: PostsComponent, pathMatch: 'full'},
+  {path: 'blog', component: PostsComponent, pathMatch: 'full'},
   {path: 'personal', component: PersonalComponent, pathMatch: 'full'},
 ];
 
