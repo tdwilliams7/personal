@@ -10,6 +10,8 @@ import { BloglinksComponent } from './bloglinks/bloglinks.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { ProjectsComponent } from './projects/projects.component';
+import { PostsComponent } from './posts/posts.component';
+import { PersonalComponent } from './personal/personal.component';
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { ProjectsComponent } from './projects/projects.component';
     LinksComponent,
     BloglinksComponent,
     HomeComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    PostsComponent,
+    PersonalComponent
   ],
   imports: [
     BrowserModule,

@@ -18,7 +18,8 @@ img{
 }
 .row{
   background:rgba(244, 202, 158,0.2);
-  min-width: 100%
+  min-width: 100%;
+  margin-right: -5%;
 }
 #body{
   min-height: 60vh;
