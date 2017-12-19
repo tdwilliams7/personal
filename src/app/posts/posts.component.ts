@@ -7,17 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostsComponent implements OnInit {
 
-  posts = [
-    {title: `this is ugly and you need to change it asap!
-    also, I don't know if I like the blue anymore, wait I do.`
-  },{
-    title: `this is ugly and you need to change it asap!
-    also, I don't know if I like the blue anymore, wait I do.`
-  }, {
-    title: `this is ugly and you need to change it asap!
-    also, I don't know if I like the blue anymore, wait I do.`
-  }
-  ]
 
   constructor() { }
 
