@@ -1,5 +1,5 @@
-<main class="row">
-  <div class="col-md-12">
+<main class="row"> fake
+  <!-- <div class="col-md-12">
     <div class="row">
       <span class="col-md-4">
         <a href="https://mighty-scrubland-21866.herokuapp.com/"><img src="assets/momentumClone.png" alt=""></a>
@@ -25,12 +25,46 @@
       </span>
     </div>
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4" (click)='setActive($event)'>
         <a href="https://intense-castle-22597.herokuapp.com/" target="_blank"><img src="assets/grocListPic.png" alt=""></a>
       </div>
       <div class="col-md-8 descrip">
         <p>MEAN CRUD app to help track spending.</p>
       </div>
+    </div>
+  </div> -->
+  <div class="col-md-12">
+    <div class="row">
+      <div class='col-md-4' (click)='setActive($event)'>
+        <img src="assets/recipePic.png" id='project1' description='A recipe fetching service that uses HTTP calls to retrieve data from edamam.com.' link='https://stark-harbor-21921.herokuapp.com/'>
+      </div>
+      <div class='col-md-4' (click)='setActive($event)'>
+        <img src="assets/grocListPic.png" id='project2' description='Static Clone of seriouseats.com. Made with HTML/CSS, Bootstrap, and React. Tried to mimic as much as possible.' link='https://mighty-scrubland-21866.herokuapp.com/'>
+      </div>
+      <div class='col-md-4' (click)='setActive($event)'>
+        <img src="assets/momentumClone.png" id='project3' description='MEAN CRUD app to help track spending.' link='https://intense-castle-22597.herokuapp.com/'>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <img src="{{ activeProject.img }}">
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <h4>{{ activeProject.description }}</h4>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <a href="{{ activeProject.link }}" target='_blank' class='btn btn-primary'>Live Project</a>
+      </div>
+      <div class="col-md-2"></div>
     </div>
   </div>
 </main>
