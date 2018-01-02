@@ -1,14 +1,19 @@
 <div class="row">
-  <div class="col-md-12" id='top'>
-    <h3>You actually want to know more about me?</h3>
-  </div>
-  <div class="row">
-    <div class="col-md-6">
-      <h4>Here is my resumé</h4>
-      <img src="assets/resumepic.png" alt="">
-    </div>
-    <div class="col-md-6">
-      <h4>Books</h4>
-    </div>
+  <div class="col-md-4 modalPic"><img src="assets/resumepic.png" data-toggle='modal' data-target='#resumeModal' id='resumePic'> </div>
+  <div class="col-md-8">
+    <h4>More to come but my resume is right over there.</h4>
   </div>
 </div>
+<div class='modal fade' id='resumeModal' tabindex="-1" role='dialog' aria-labelledby='myResumeModal' aria-hidden='true'>
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <object type="application/pdf" data="assets/dev_resume.pdf" width='100%' height="500" ></object>
+                </div>
+                <div class="modal-footer">
+                    <button type='button' class="btn btn-default" data-dismiss='modal'>Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>

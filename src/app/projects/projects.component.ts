@@ -10,7 +10,8 @@ export class ProjectsComponent implements OnInit {
   project = {
     img: 'assets/momentumClone.png',
     description: `          Static Clone of seriouseats.com. Made with HTML/CSS, Bootstrap, and React. Tried to mimic as much as possible.
-          Links do take you to that site.`
+          Links do take you to that site.`,
+    link: 'https://intense-castle-22597.herokuapp.com/'
   }
     project1 = {
     img: 'assets/momentumClone.png',
@@ -19,14 +20,14 @@ export class ProjectsComponent implements OnInit {
   }
   constructor() { }
 
-  activeProject = {};
+  activeProject;
 
   setActive(event){
     console.log(event.target.attributes.link.textContent);
     this.activeProject = {
       img: event.target.src,
       description: event.target.attributes.description.textContent,
-      link: event.target.attributes.link.textContent;
+      link: event.target.attributes.link.textContent,
     }
   }
 

@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 
+
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
@@ -14,6 +15,7 @@ import { PostsComponent } from './posts/posts.component';
 import { PersonalComponent } from './personal/personal.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,11 +26,13 @@ import { PersonalComponent } from './personal/personal.component';
     HomeComponent,
     ProjectsComponent,
     PostsComponent,
-    PersonalComponent
+    PersonalComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
